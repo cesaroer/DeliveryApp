@@ -16,6 +16,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Login"
+            android:fontFamily="@font/indigo_daisy"
             android:textSize="50sp"
             android:layout_marginTop="60dp"
             android:layout_marginLeft="25dp" />
@@ -23,6 +24,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_regular"
             android:text="Ingresa con correo y contraseña"
             android:layout_marginLeft="25dp"
             android:layout_marginTop="5dp"/>
@@ -79,13 +81,6 @@
             android:layout_marginBottom="20dp"
             android:text="Registrar"/>
 
-
-
     </LinearLayout>
-
-
-
-
-
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
