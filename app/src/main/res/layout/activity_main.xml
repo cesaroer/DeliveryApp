@@ -37,7 +37,10 @@
             android:layout_marginRight="20dp"
             android:layout_marginTop="50dp"
             android:inputType="textEmailAddress"
-            android:textSize="15sp"/>
+            android:textSize="15sp"
+            android:background="@drawable/edit_text_custom"
+            android:padding="15dp"
+            />
 
         <EditText
             android:layout_width="match_parent"
@@ -47,7 +50,10 @@
             android:layout_marginRight="20dp"
             android:layout_marginTop="10dp"
             android:inputType="textPassword"
-            android:textSize="15sp"/>
+            android:textSize="15sp"
+            android:background="@drawable/edit_text_custom"
+            android:padding="15dp"
+            />
 
     </LinearLayout>
 
@@ -66,6 +72,7 @@
             android:layout_marginRight="20dp"
             android:layout_marginLeft="20dp"
             android:backgroundTint="@color/green"
+            android:background="@drawable/rounded_btn"
             />
 
         <ImageView
