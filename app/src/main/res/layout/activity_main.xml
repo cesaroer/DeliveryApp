@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
+    tools:context=".activities.MainActivity"
     android:background="@color/white"
     >
 
@@ -85,6 +85,7 @@
             />
 
         <ImageView
+            android:id="@+id/imageView_go_to_register"
             android:layout_width="25dp"
             android:layout_height="30dp"
             android:src="@drawable/ic_arrow_right"
