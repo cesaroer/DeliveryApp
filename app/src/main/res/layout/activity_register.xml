@@ -32,6 +32,7 @@
             />
 
         <EditText
+            android:id="@+id/name_edit_text"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:hint="Nombre"
@@ -46,6 +47,7 @@
             />
 
         <EditText
+            android:id="@+id/lastname_edit_text"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:hint="Apellido"
@@ -60,6 +62,7 @@
             />
 
         <EditText
+            android:id="@+id/email_edit_text"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:hint="Email"
@@ -74,6 +77,7 @@
             />
 
         <EditText
+            android:id="@+id/phone_edit_text"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:hint="Telefono"
@@ -88,6 +92,7 @@
             />
 
         <EditText
+            android:id="@+id/password_edit_text"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:hint="contrasena"
@@ -102,6 +107,7 @@
             />
 
         <EditText
+            android:id="@+id/pass_confirmation_edit_text"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:hint="confirmar contrasena"
@@ -126,6 +132,7 @@
         >
 
         <Button
+            android:id="@+id/register_btn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Registrarse"
@@ -139,7 +146,6 @@
             />
 
         <ImageView
-
             android:id="@+id/imageView_go_to_login"
             android:layout_width="30dp"
             android:layout_height="30dp"
